@@ -1,0 +1,26 @@
+{
+  "name": "1802-lianxiang",
+  "version": "1.0.0",
+  "description": "lianxiang shopping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Monkey1216/1802-lianxiang.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Monkey1216/1802-lianxiang/issues"
+  },
+  "homepage": "https://github.com/Monkey1216/1802-lianxiang#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0"
+  }
+}
