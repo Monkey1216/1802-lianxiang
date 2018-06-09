@@ -213,6 +213,7 @@ a{
 		}
 	}
 }
+
 .hot{
 	height:70px;
 	font-size:20px;
@@ -220,14 +221,11 @@ a{
 		height:70px;
 		.hot_a{
 			line-height:70px;
-			float:left;
-			color:#000000
+			color:#000000;
+			font-size:20px;
 		}
 		.hot_img{
-			display:block;
-			float:left;
-			margin-left:910px;
-			margin-top:25px;
+			float:right;
 		}
 	}
 	.hot_product1{
@@ -880,6 +878,7 @@ a{
 	color:#ccc;
 	font-size:12px;
 	line-height:46px;
+	border-top:1px solid #ccc;
 	.footer_bottom_right{
 		float:right;
 	}
