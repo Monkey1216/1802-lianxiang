@@ -8,6 +8,16 @@
 <link rel="stylesheet" href="C:\\phpStudy\\PHPTutorial\\WWW\\1802-lianxiang\\css\\index.css">
 </head>
 <body>
+	<div class="loginPage">
+	        <div class="regist_title">联想会员登录</div>
+	        <input type="text" class="username" placeholder="邮箱\手机号">
+	        <input type="password" class="userpassword" placeholder="密码">
+	        <span><input type="checkbox" class="autostatus" checked>自动登录</span>
+			<input type="submit" class="loginBtn" value="登录">
+			<div class="loginPage1"><a>手机验证码快速登录</a></div>
+			<div class="loginPage2"><a>立即注册</a>|<a>忘记密码？</a></div>
+			<div class="loginPage3"><a>------其他登录方式------</a></div>	
+	</div>	
 	<div class = "div_left">
 		<a href="#"><img src="img/1.jpg"></a>
 	</div>
@@ -490,4 +500,17 @@ window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMin
  		$(".newhot34").css({"box-shadow":"#fff 0px 0px 0px"});
  	});
 
+ 	//点击登录按钮动态添加弹出框
+ 	$(".top_box_login").click(function(){
+ 			<div class="loginPage">
+ 		        <div class="regist_title">联想会员登录</div>
+ 		        <input type="text" class="username" placeholder="邮箱\\手机号">
+ 		        <input type="password" class="userpassword" placeholder="密码">
+ 		        <input type="checkbox" class="autostatus">
+ 		        <span>自动登录</span>
+ 				<input type="submit" class="loginBtn" value="登录">
+ 				<div class="loginPage1"><a>手机验证码快速登录</a><a>立即注册</a>|<a>忘记密码？</a></div>	
+ 				<div class="loginPage1"><a>------其他登录方式------</a></div>	
+ 			</div>	
+ 	});
  </script>
