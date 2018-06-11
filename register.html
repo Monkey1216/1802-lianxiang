@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<link rel="stylesheet" href="C:\\phpStudy\\PHPTutorial\\WWW\\1802-lianxiang\\css\\iconfont.css">
+<link rel="stylesheet" href="C:\\phpStudy\\PHPTutorial\\WWW\\1802-lianxiang\\css\\swiper.min.css">
+<link rel="stylesheet" href="C:\\phpStudy\\PHPTutorial\\WWW\\1802-lianxiang\\css\\register.css">
+<link rel="stylesheet" type="text/css" href="C:\\phpStudy\\PHPTutorial\\WWW\\1802-lianxiang\\css\\htmleaf-demo.css">
+<link rel="stylesheet" type="text/css" href="C:\\phpStudy\\PHPTutorial\\WWW\\1802-lianxiang\\css\\drag.css" />
+</head>
+<body>
+	<div class = "div_left">
+		<a href="#"><img src="img/1.jpg"></a>
+	</div>
+	<div class = "div_right">
+		<div class="top_box_1">
+			<a href="#" class="top_box_1a">联想首页</a>
+			<a href="#" class="top_box_1a">商城</a>
+			<a href="#" class="top_box_1a">社区</a>
+			<a href="#" class="top_box_1a">服务</a>
+			<a href="#" class="top_box_1a">咨询</a>
+			<a href="#" class="top_box_1a">门店</a>
+			<a href="#" class="top_box_1a">手机版</a>
+		</div>
+	</div>
+	<div class="regist">
+        <div class="regist_title">注册联想会员</div>
+        <div class="regist_tap">
+            <p class="person_regist_left" type="0">个人用户注册</p>
+            <p class="company_regist_right" type="1">企业用户注册</p>
+        </div>
+        <input type="text" class="phoneNum" placeholder="输入手机号">
+        <input type="text" class="companyName" placeholder="企业名称">
+        <input type="text" class="companyEmail" placeholder="企业邮箱">
+        <input type="text" class="companyDuty" placeholder="企业税号">
+        <div class="htmleaf-container">
+        	<div class="container">
+        		<div id="drag"></div>		
+        	</div>
+        </div>
+        <input type="text" class="authCode" placeholder="短信验证码"><input type="submit" class="authCodeSub" value="获取验证码">
+        <input type="password" class="passWord" placeholder="输入密码，密码的长度8-20位字符">
+        <input type="password" class="confirmPassword" placeholder="再次输入密码">
+		<input type="submit" class="submitBtn" value="立即注册">
+		<div class="registerfooter">注册账号即表示您同意并愿意遵守联想 
+			使用条款和
+			隐私策略
+		</div>
+		<div class="registerfooter3">已有账号
+			点此登录
+		</div>    
+	</div>	
+
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="js/iconfont.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js"><\/script>')</script>
+<script src="js/drag.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$('#drag').drag();
+</script>
+<script type="text/javascript">
+$(function(){
+	$(".companyDuty,.companyName,.companyEmail").hide();
+	
+	$(".person_regist_left").click(function(){
+  		$(".companyDuty,.companyName,.companyEmail").hide();
+  		$(".person_regist_left").css("color","red");
+  		$(".company_regist_right").css("color","black");
+
+	});
+	$(".company_regist_right").click(function(){
+	  	$(".companyDuty,.companyName,.companyEmail").show();
+	  	$(".person_regist_left").css("color","black");
+	  	$(".company_regist_right").css("color","red");
+
+	});
+});	
+</script>
+

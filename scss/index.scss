@@ -217,20 +217,19 @@ a{
 .hot{
 	height:70px;
 	font-size:20px;
-	clear:both;
 	.hot_header{
-
-		height:70px;
 		.hot_a{
-			line-height:70px;
 			color:#000000;
 			font-size:20px;
-			float:left;
+			border:0px;
+			display:block;
+			height:40px;
+			padding-left:0px;
+			padding-bottom:20px;
 		}
 		.hot_img{
-			float:left;
-			padding-top: 17px;
-			padding-left: 908px;
+			display:inline-block;
+			padding-left:909px;
 		}
 	}
 	.hot_product1{
@@ -362,6 +361,107 @@ a{
 		border:1px solid #e6e6e6;
 		margin-right:10px;
 		float:left;
+		text-align:center;
+		.helpyou_content1_header_left{
+			width:105px;
+			height:40px;
+			float:left;
+			line-height:40px;
+			font-size:16px;
+			background:#e6e6e6;
+			border-top:2px solid red;
+		}
+		.helpyou_content1_header_right{
+			width:107px;
+			height:40px;
+			float:left;
+			line-height:40px;
+			font-size:16px;
+		}
+		.helpyou_content11{
+			float:left;
+			height:142px;
+			padding-top:30px;
+			padding-left:14px;
+			padding-right:14px;
+			font-size:16px;
+			background:#e6e6e6;
+			h5{
+				font-weight:100;
+				padding-bottom: 14px;
+			}
+			a{
+				padding: 0 12px;
+				height: 28px;
+				line-height: 28px;
+				color: #6f7170;
+				font-size:14px;
+			}
+		}
+		.helpyou_content13{
+			float:left;
+			height:142px;
+			padding-top:30px;
+			padding-left:14px;
+			padding-right:14px;
+			font-size:16px;
+			background:#e6e6e6;
+			h5{
+				font-weight:100;
+				padding-bottom: 14px;
+			}
+			a{
+				padding: 0 12px;
+				height: 28px;
+				line-height: 28px;
+				color: #6f7170;
+				font-size:14px;
+			}
+		}
+		.helpyou_content12{
+			float:left;
+			height:135px;
+			width:184px;
+			padding-top:14px;
+			padding-left:14px;
+			padding-right:14px;
+			font-size:16px;
+			background:#e6e6e6;
+			border-top: 1px solid #fff;
+			h5{
+				font-weight:100;
+				padding-bottom: 14px;
+			}
+			a{
+				float:left;
+				padding:0 14px;
+				line-height: 28px;
+				color: #6f7170;
+				font-size:13px;
+			}
+		}
+		.helpyou_content14{
+			float:left;
+			height:138px;
+			padding-top:14px;
+			padding-left:14px;
+			padding-right:14px;
+			font-size:16px;
+			background:#e6e6e6;
+			border-top: 1px solid #fff;
+			h5{
+				font-weight:100;
+				padding-bottom: 14px;
+			}
+			a{
+				padding: 0 12px;
+				height: 28px;
+				line-height: 28px;
+				color: #6f7170;
+				font-size:13px;
+			}
+		}
+
 	}
 	.helpyou_content2{
 		height:364px;
@@ -399,7 +499,6 @@ a{
 				height:320px;
 				float:left;
 			}
-
 	}
 	.helpyou_content4{
 			height:364px;
@@ -423,7 +522,6 @@ a{
 			}
 	}
 }
-
 .exclusive{
 	height:70px;
 	font-size:20px;

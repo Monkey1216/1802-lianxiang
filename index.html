@@ -72,11 +72,10 @@
 				</div>
 		</div>
 	</div>
-	
 	<div class="hot">
 		<div class="hot_header">
-			<a href="#" class="hot_a">热门</a>
-			<img src="img/11.jpg" class="hot_img">
+			<h3 href="#" class="hot_a">热门<img src="img/11.jpg" class="hot_img"></h3>
+			
 		</div>
 		<div class="hot_product">
 			<div class="hot_product1">
@@ -154,6 +153,32 @@
 			<a href="#" class="helpyou_a">帮你选</a>
 		</div>
 		<div class="helpyou_content1">
+			<div class="helpyou_content1_header_left">笔记本</div>
+			<div class="helpyou_content1_header_right">台式机</div>
+			<div class="helpyou_content11">
+				<h5>选择属于您的标签</h5>
+				<a href="#">校园学生</a><a href="#">时尚女性</a>
+				<a href="#">家庭娱乐</a><a href="#">商务办公</a>
+				<a href="#">高清游戏</a><a href="#">轻薄便携</a>
+			</div>
+			<div class="helpyou_content12">
+				<h5>选择属于您的预算</h5>
+				<a href="#">&nbsp;&nbsp;&nbsp;&nbsp;0-2999</a>
+				<a href="#">&nbsp;&nbsp;3000-3999</a><a href="#">4000-4999</a>
+				<a href="#">5000-6999</a><a href="#">7000-9999</a>
+				<a href="#">10000以上</a>
+			</div>
+			<div class="helpyou_content13">
+				<h5>选择属于您的标签</h5>
+				<a href="#">商务办公</a><a href="#">家庭娱乐</a>
+				<a href="#">疯狂游戏</a><a href="#">致美大屏</a>
+			</div>
+			<div class="helpyou_content14">
+				<h5>选择属于您的预算</h5>
+				<a href="#">0-2999</a><a href="#">&nbsp;3000-3999</a>
+				<a href="#">4000-4999</a><a href="#">5000-6999</a>
+				<a href="#">7000-9999</a><a href="#">1000以上</a>
+			</div>
 		</div>
 		<div class="helpyou_content2">
 			<a href="#"><img src="img/22.jpg"></a>
@@ -369,7 +394,8 @@
 window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"16"},"share":{"bdSize":16},"image":{"viewList":["tsina","weixin","qzone","tieba"],"viewText":"分享到：","viewSize":"32"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["tsina","weixin","qzone","tieba"]}};
 </script>
 <script type="text/javascript">
- var swiper = new Swiper('.top_box_3_right .swiper-container', {
+	//轮播图
+ 		var swiper = new Swiper('.top_box_3_right .swiper-container', {
        spaceBetween: 30,
        centeredSlides: true,
        autoplay: {
@@ -386,4 +412,20 @@ window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMin
        },
      });
  	$("svg").empty();
+ 	//helpyou选项卡
+ 	$(".helpyou_content11,.helpyou_content12").show();
+ 	$(".helpyou_content13,.helpyou_content14").hide();
+
+ 	$(".helpyou_content1_header_left").click(function(){
+ 		$(".helpyou_content11,.helpyou_content12").show();
+ 		$(".helpyou_content13,.helpyou_content14").hide();
+ 		$(".helpyou_content1_header_left").css({"border-top":"2px solid red","background":"#e6e6e6"});
+ 		$(".helpyou_content1_header_right").css({"border-top":"0px","background":"#fff"});
+ 	});
+ 	$(".helpyou_content1_header_right").click(function(){
+ 		$(".helpyou_content11,.helpyou_content12").hide();
+ 		$(".helpyou_content13,.helpyou_content14").show();
+ 		$(".helpyou_content1_header_left").css({"border-top":"0px","background":"#fff"});
+ 		$(".helpyou_content1_header_right").css({"border-top":"2px solid red","background":"#e6e6e6"});
+ 	});
 </script>
