@@ -275,10 +275,10 @@
 			</ul>
 		</div>
 		<div class="newhot3">
-			<img  class="newhot3img" src="img/37.jpg">
-			<img  class="newhot3img" src="img/38.jpg">
-			<img  class="newhot3img" src="img/39.jpg">
-			<img  class="newhot3last" src="img/40.jpg" >
+			<img  class="newhot31" src="img/37.jpg">
+			<img  class="newhot32" src="img/38.jpg">
+			<img  class="newhot33" src="img/39.jpg">
+			<img  class="newhot34" src="img/40.jpg" >
 		</div>
 	</div>	
 	<img src="img/41.jpg" class="newhotlast">
@@ -412,6 +412,7 @@ window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMin
        },
      });
  	$("svg").empty();
+
  	//helpyou选项卡
  	$(".helpyou_content11,.helpyou_content12").show();
  	$(".helpyou_content13,.helpyou_content14").hide();
@@ -428,4 +429,65 @@ window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMin
  		$(".helpyou_content1_header_left").css({"border-top":"0px","background":"#fff"});
  		$(".helpyou_content1_header_right").css({"border-top":"2px solid red","background":"#e6e6e6"});
  	});
-</script>
+
+ 	//定制动画
+ 	setInterval(function(){
+ 	    $(".exclusive_content11").animate({"opacity":0.3},1000,function(){
+ 	     	$(".exclusive_content11").animate({"opacity":1},1000)
+ 	    });
+ 	},2000);
+ 	//图片背景渐变
+ 	$(".hot_product2 img").mouseenter(function(){
+ 		$(".hot_product2 img").css({"box-shadow":"#666 0px 0px 10px"});
+ 	});
+ 	$(".hot_product2 img").mouseleave(function(){
+ 		$(".hot_product2 img").css({"box-shadow":"#fff 0px 0px 0px"});
+ 	});
+
+ 	$(".hot_product21 img").mouseenter(function(){
+ 		$(".hot_product21 img").css({"box-shadow":"#666 0px 0px 10px"});
+ 	});
+ 	$(".hot_product21 img").mouseleave(function(){
+ 		$(".hot_product21 img").css({"box-shadow":"#fff 0px 0px 0px"});
+ 	});
+
+ 	$(".hot_product22 img").mouseenter(function(){
+ 		$(".hot_product22 img").css({"box-shadow":"#666 0px 0px 10px"});
+ 	});
+ 	$(".hot_product22 img").mouseleave(function(){
+ 		$(".hot_product22 img").css({"box-shadow":"#fff 0px 0px 0px"});
+ 	});
+
+ 	$(".newhot1").mouseenter(function(){
+ 		$(".newhot1").css({"box-shadow":"#666 0px 0px 10px"});
+ 	});
+ 	$(".newhot1").mouseleave(function(){
+ 		$(".newhot1").css({"box-shadow":"#fff 0px 0px 0px"});
+ 	});
+
+ 	$(".newhot31").mouseenter(function(){
+ 		$(".newhot31").css({"box-shadow":"#666 0px 0px 10px"});
+ 	});
+ 	$(".newhot31").mouseleave(function(){
+ 		$(".newhot31").css({"box-shadow":"#fff 0px 0px 0px"});
+ 	});
+ 	$(".newhot32").mouseenter(function(){
+ 		$(".newhot32").css({"box-shadow":"#666 0px 0px 10px"});
+ 	});
+ 	$(".newhot32").mouseleave(function(){
+ 		$(".newhot32").css({"box-shadow":"#fff 0px 0px 0px"});
+ 	});
+ 	$(".newhot33").mouseenter(function(){
+ 		$(".newhot33").css({"box-shadow":"#666 0px 0px 10px"});
+ 	});
+ 	$(".newhot33").mouseleave(function(){
+ 		$(".newhot33").css({"box-shadow":"#fff 0px 0px 0px"});
+ 	});
+ 	$(".newhot34").mouseenter(function(){
+ 		$(".newhot34").css({"box-shadow":"#666 0px 0px 10px"});
+ 	});
+ 	$(".newhot34").mouseleave(function(){
+ 		$(".newhot34").css({"box-shadow":"#fff 0px 0px 0px"});
+ 	});
+
+ </script>

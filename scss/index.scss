@@ -238,8 +238,10 @@ a{
 		height:274px;
 		border:1px solid #e6e6e6;
 		font-size:17px;
-		background-image:url('img/16.png');
-		background-positon:20px 20px;
+		background-image:url("../img/16.png");
+		background:cover;
+		background-position:20px 20px;
+		z-index:99;
 		.hot_product1_left{
 			color:#000;	
 			float:left;
@@ -535,7 +537,7 @@ a{
 		}
 	}
 	.exclusive_content1{
-			height:470px;
+			height:512px;
 			width:240px;
 			border:1px solid #e6e6e6;
 			margin-right:10px;
@@ -552,7 +554,6 @@ a{
 			}
 			.exclusive_content11{
 				float:left;
-				height:100%;
 				width:100%;
 			}
 	}
@@ -853,7 +854,7 @@ a{
 	}
 	.newhot1{
 		float:left;
-		padding-right:10px;
+		margin-right:10px;
 	}
 	.newhot2{
 		float:left;
@@ -862,6 +863,7 @@ a{
 		background-color:#AAA9A9;
 		padding:25px;
 		padding-top:0px;
+		box-shadow:#666 0px 0px 10px;
 		.newhot2h3{
 				border:0px;
 				border-bottom:1px dashed #9c9c9c;
@@ -896,19 +898,25 @@ a{
 		clear:both;
 		height:160px;
 		padding-top:10px;
-		img{
+		padding-bottom:10px;
+		.newhot31,.newhot32,.newhot33{
 			float:left;
-			padding-right:10px;
+			margin-right:10px;
 			width:275px;
 			box-sizing:content-box;
 		}
-		.newhot3last{
-			padding-right:0px;;
+		.newhot34{
+			float:left;
+			margin-right:10px;
+			width:275px;
 		}
 	}	
 }
 .newhotlast{
+	clear:both;
 	width:1130px;
+	display:block;
+	padding-top: 30px;
 }
 .others{
 	height:160px;
