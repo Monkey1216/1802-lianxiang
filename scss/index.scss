@@ -217,15 +217,20 @@ a{
 .hot{
 	height:70px;
 	font-size:20px;
+	clear:both;
 	.hot_header{
+
 		height:70px;
 		.hot_a{
 			line-height:70px;
 			color:#000000;
 			font-size:20px;
+			float:left;
 		}
 		.hot_img{
-			float:right;
+			float:left;
+			padding-top: 17px;
+			padding-left: 908px;
 		}
 	}
 	.hot_product1{
