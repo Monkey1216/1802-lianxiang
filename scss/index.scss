@@ -1001,17 +1001,17 @@ a{
 	position:fixed;
 	left: 25%;
 	top: 90px;
-	width:580px;
-	height:450px;
+	height:490px;
 	z-index: 10000100;
 	background: #fff;
-	border:1px solid black;
-	text-align:center;
+	
 	margin:auto;
 	.regist_title{
+		width:580px;
 		font-size:30px;
 		line-height:60px;
 		margin-top:60px;
+		text-align:center;
 	}
 	.username{
 		display:block;
@@ -1025,6 +1025,7 @@ a{
 		margin-top:38px;
 	}
 	.userpassword{
+		width:580px;
 		display:block;
 		font-size:14px;
 		color:rgb(140, 140, 140);
@@ -1036,7 +1037,14 @@ a{
 		margin-top:38px;
 		margin-bottom: 14px;
 	}
+	.errorusername{
+		width:322px;
+		height:14px;
+		font-size:14px;
+		text-align:center;
+	}
 	.loginBtn{
+		width:580px;
 		display:block;
 		font-size:14px;
 		color:rgb(140, 140, 140);
@@ -1052,16 +1060,58 @@ a{
 		color:#fff;
 		text-align:center;
 	}
-	span{
+	.autologin{
+		width:322px;
 		height:14px;
 		font-size:14px;
-		display:block;
-		line-hight:28px;
+		text-align:center;
 	}
-	.loginPage1 a{
+	.loginPage1{
 		margin:auto;
 		font-size:14px;
 		color:#ef1c22;
 		line-height:28px;
+		text-align:center;
+		.loginPage11{
+			padding-right: 80px;
+			color:#ef1c22;
+		}
+		.loginPage12:hover{
+			color:#ef1c22;
+		}
+		.loginPage13:hover{
+			color:#ef1c22;
+		}
 	}
+	.loginPage3{
+		text-align:center;
+		margin-top:40px;
+		margin-bottom:40px;
+	}
+	.deletelogin{
+		width:50px;
+		height:50px;
+		z-index: 10000200;
+		color:#dadada;
+		font-size:50px;
+		text-align:center;
+		line-height:50px;
+		border-radius:50%;
+		border:1px solid #dadada;
+		position: fixed;
+		top:45px;
+		left:72%;
+	}
+}
+.ppMask{
+	display:block;
+	position:fixed;
+	top:0;
+	right:0;
+	width:100%;
+	height:100%;
+	background:#cacaca;
+	opacity:0.5;
+	z-index:100000;
+	display:none;
 }
